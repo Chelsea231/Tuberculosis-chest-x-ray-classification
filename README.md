@@ -35,8 +35,7 @@ Our investigation focuses on the binary classification of images in order to dis
 2. Deep Forest
 Deep forest is a ensemble learning ,method which means it is an machine learning approach where multiple models are combined to make predictions which improves overall accuracy and robustness of prediction compared to single model. It predicts bounding boxes around areas of interest in chest xray to identify where TB can be. It utilizes Cascaded structure that is each stage refines prediction made by previous stage and performs well in classifying CXR images without segmentation. An ensemble of learners has long been recognised as having great generalization performance as compared to solo learners.
 
-Prerequisites
-Python 3.x
+Prerequisites  Python 3.x
 TensorFlow
 Scikit-learn
 OpenCV
@@ -45,8 +44,7 @@ Pandas
 Matplotlib
 deepforest
 
-Results
-In this two-class problem, all of the evaluated pre-trained models perform exceptionally well in distinguishing between TB and normal images. Deep Forest outperforms the other networks trained with X-ray images without segmentation when it comes to classifying the X-ray images, according to the results.
+Results  In this two-class problem, all of the evaluated pre-trained models perform exceptionally well in distinguishing between TB and normal images. Deep Forest outperforms the other networks trained with X-ray images without segmentation when it comes to classifying the X-ray images, according to the results.
 
 Conclusion and future work
 For the classification of TB and normal CXR images, the performance of deep forest and CNN models was evaluated. According to the Deep forest method, classification accuracy, precision, and recall for the detection of tuberculosis were found to be 97 percent, 97 percent, and 97 percent, respectively, while the DenseNet method achieved 50 percent, 25 percent, and 33 percent. For this reason, segmentation of the lungs is extremely important when performing a computer-aided diagnosis using radiographs. This cutting-edge performance has the potential to be a very useful and quick diagnostic tool, which has the potential to save a significant number of people who die every year as a result of delayed or improper diagnosis. When we use datasets without image segmentation, the DenseNet201 model do not performs well.
