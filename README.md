@@ -45,18 +45,33 @@ Pandas
 Matplotlib
 deepforest
 
-How to Run the Project
-Clone the repository:
-git clone <repository-url> cd <repository-folder>
-Install the required packages:
-pip install -r requirements.txt
-Run the project script:
-jupyter notebook
-Open and run the notebooks in the Jupyter Notebook interface.
-Execution Time
-The entire project, including training and evaluation, is expected to run in approximately 20 minutes.
-
 Results
 In this two-class problem, all of the evaluated pre-trained models perform exceptionally well in distinguishing between TB and normal images. Deep Forest outperforms the other networks trained with X-ray images without segmentation when it comes to classifying the X-ray images, according to the results.
+
+Conclusion and future work
+For the classification of TB and normal CXR images, the performance of deep forest and CNN models was evaluated. According to the Deep forest method, classification accuracy, precision, and recall for the detection of tuberculosis were found to be 97 percent, 97 percent, and 97 percent, respectively, while the DenseNet method achieved 50 percent, 25 percent, and 33 percent. For this reason, segmentation of the lungs is extremely important when performing a computer-aided diagnosis using radiographs. This cutting-edge performance has the potential to be a very useful and quick diagnostic tool, which has the potential to save a significant number of people who die every year as a result of delayed or improper diagnosis. When we use datasets without image segmentation, the DenseNet201 model do not performs well.
+
+References
+C. Liu, M. Alcantara and B. Liu, "TX-CNN: Detecting tuberculosis in chest X-ray images using convolutional neural network", IEEE, 2017. [Accessed 31 July 2020].
+
+D. Jeoung, O. Stephen and M. Sain, "An Efficient Deep Learning Approach to Pneumonia Classification in Healthcare", Journal of Healthcare Engineering, vol. 2019, 2019. [Accessed 2 August 2020]
+
+Anthimopoulos, M., Christodoulidis, S., Ebner, L., Christe, A., and Mougiakakou, S. (2016). Lung pattern classification for interstitial lung diseases using a deep convolutional neural network. IEEE Trans. Med. Imaging 35, 1207–1216. doi: 10.1109/TMI.2016.2535865
+
+Boureau, Y. L., Le Roux, N., Bach, F., Ponce, J., and LeCun, Y. (2011). “Ask the locals: multi-way local pooling for image recognition,” in ICCV'11-The 13th International Conference on Computer Vision (Barcelona). doi: 10.1109/ICCV.2011.6126555
+
+Pasa, F.; Golkov, V.; Pfeiffer, F.; Cremers, D.; Pfeiffer, D. Efﬁcient Deep Network Architectures for Fast ChestX-Ray Tuberculosis Screening and Visualization. Sci. Rep. 2019,9, 6268
+
+Anderson, L.; Dean, A.; Falzon, D.; Floyd, K.; Baena, I.; Gilpin, C.; Glaziou, P.; Hamada, Y.; Hiatt, T.; Char, A.;et al. Global tuberculosis report 2015. WHO Libr. Cat. Data 2015,1, 1689–1699
+
+NASH M., KADAVIGERE R., ANDRADE J, et al. Deep learning, computer-aided radiography reading for tuberculosis: a diagnostic accuracy study from a tertiary hospital in India. Scientific Reports, 2020, 10(1):1-10.
+
+DUONG L. T., LE N. H., TRAN T. B, et al. Detection of Tuberculosis from Chest X-ray Images: Boosting the Performance with Vision Transformer and Transfer Learning. Expert Systems with Applications, 2021:115519.
+
+DASANAYAKA C., and DISSANAYAKE M. B. Deep Learning Methods for Screening Pulmonary Tuberculosis Using Chest X-rays. Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, 2020:1-11.
+
+YADAV S. S., and JADHAV S. M. Deep convolutional neural network based medical image classification for disease diagnosis. Journal of Big Data, 2019, 6(1):1-18.
+
+KARNKAWINPONG T., and LIMPIYAKORN Y. Classification of pulmonary tuberculosis lesion with convolutional neural networks. Journal of Physics: Conference Series, 2019, 1195: 012007
 
 
